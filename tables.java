@@ -8,7 +8,7 @@ public class tables {
             int table = scan.nextInt();
             scan.nextLine();
             for (int i = 1; i <= 10; i++) {
-                System.out.println(i + "x2=" + i * table);
+                System.out.println(table+"x"+ i+"=" + i * table);
             }
             System.out.println("You want to Continue (y/n): ");
             String choice = scan.nextLine();
